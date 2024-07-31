@@ -22,5 +22,6 @@ grow_vertical = 2
 
 [node name="UDPServer" type="Node" parent="."]
 script = ExtResource("2_bf8we")
+webcam_number = 1
 
 [connection signal="image_ready" from="UDPServer" to="." method="_on_udp_server_image_ready"]

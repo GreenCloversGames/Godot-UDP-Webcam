@@ -3,7 +3,7 @@
 
 a = Analysis(
     ['webcam.py'],
-    pathex=[],
+    pathex=['C:\\Users\\green\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\cv2\\__init__.py'],
     binaries=[],
     datas=[],
     hiddenimports=[],
@@ -21,7 +21,7 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,
-    name='webcam',
+    name='Webcam',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -40,5 +40,5 @@ coll = COLLECT(
     strip=False,
     upx=True,
     upx_exclude=[],
-    name='webcam',
+    name='Webcam',
 )
